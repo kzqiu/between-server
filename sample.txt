@@ -1,0 +1,26 @@
+>>> gmaps.places_nearby((45.50, -122.69), radius=5000, type='museum')
+
+{'html_attributions': [], 
+ 'results': [{'business_status': 'OPERATIONAL',
+             'geometry': {'location': {'lat': 45.51614999999999, 'lng': -122.683357},
+             'viewport': {'northeast': {'lat': 45.5176403802915, 'lng': -122.6817751697085}, 
+             'southwest': {'lat': 45.5149424197085, 'lng': -122.6844731302915}}}, 
+             'icon': 'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png', 
+             'icon_background_color': '#13B5C7', 
+             'icon_mask_base_uri': 'https://maps.gstatic.com/mapfiles/place_api/icons/v2/museum_pinlet', 
+             'name': 'Portland Art Museum', 
+             'opening_hours': {'open_now': True}, (must remove opening_hours or change the value to true)
+             'photos': [{'height': 9000, 'html_attributions': ['<a href="https://maps.google.com/maps/contrib/112202724001660929418">Mikhail Vorontsov</a>'], 
+             'photo_reference': 'AeJbb3ea6Yxl7PppMlvHVVa2KH8EotkPFcOQjOsWQJCNYdoHYz8CS-LtT3enHhfVNGt-3aCD6OGKasoz7gtzn3J1aqiGa6ixxXSzRorQ2AETzxw68EjIxy12CMHmJTgwXEMqGwdi-lWS7n6Wpp58eHNXnYdjl_MIQ7uZGUgi7Hxrnalt3TNU', 'width': 12000}], 
+             'place_id': 'ChIJRWYlJxsKlVQRbcha0Cf-cO0', 
+             'plus_code': {'compound_code': 'G888+FM Portland, OR, USA', 'global_code': '84QVG888+FM'}, 
+             'price_level': 3, 
+             'rating': 4.7, 
+             'reference': 'ChIJRWYlJxsKlVQRbcha0Cf-cO0', 
+             'scope': 'GOOGLE', 
+             'types': ['tourist_attraction', 'art_gallery', 'museum', 'point_of_interest', 'establishment'], 
+             'user_ratings_total': 4779, 
+             'vicinity': '1219 Southwest Park Avenue, Portland'}, ...],
+ 'status': 'OK' (will be 'ZERO_RESULTS' if no results)
+}
+ 
